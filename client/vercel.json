@@ -1,8 +1,8 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "https://lahore-traditional-backend.onrender.com/api/$1" },
-    { "source": "/uploads/(.*)", "destination": "https://lahore-traditional-backend.onrender.com/uploads/$1" },
-    { "source": "/socket.io/(.*)", "destination": "https://lahore-traditional-backend.onrender.com/socket.io/$1" },
+    { "source": "/api/(.*)", "destination": "https://https://resturant-site-k4qe.onrender.com//api/$1" },
+    { "source": "/uploads/(.*)", "destination": "https://https://resturant-site-k4qe.onrender.com//uploads/$1" },
+    { "source": "/socket.io/(.*)", "destination": "https://https://resturant-site-k4qe.onrender.com//socket.io/$1" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
