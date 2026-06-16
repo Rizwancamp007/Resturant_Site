@@ -12,7 +12,7 @@ const testLogin = async () => {
     await mongoose.connect(process.env.MONGO_URI);
     console.log('Connected!');
 
-    const adminEmail = 'admin@eleve.com';
+    const adminEmail = 'admin@lahoritraditional.com';
     const user = await User.findOne({ email: adminEmail }).select('+password');
     
     if (!user) {
@@ -51,10 +51,10 @@ const testLogin = async () => {
     // For example, maybe there is a whitespace? "admin123 " or " admin123"?
     // Let's test matches for:
     // - "admin123"
-    // - "admin@eleve.com"
+    // - "admin@lahoritraditional.com"
     // - "admin"
     // - ""
-    const testPasswords = ['admin123', 'admin123 ', ' admin123', 'admin', 'admin@eleve.com'];
+    const testPasswords = ['admin123', 'admin123 ', ' admin123', 'admin', 'admin@lahoritraditional.com'];
     for (const testPw of testPasswords) {
       const match = await bcrypt.compare(testPw, user.password);
       console.log(`Checking "${testPw}": ${match ? '✅ MATCH!' : '❌ NO'}`);

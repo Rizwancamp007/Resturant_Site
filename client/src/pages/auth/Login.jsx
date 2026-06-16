@@ -49,7 +49,7 @@ export default function Login() {
               <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-midnight-200/50" />
               <input
                 type="email"
-                placeholder="chef@eleve.com"
+                placeholder="chef@lahoritraditional.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="glass-input pl-12"
