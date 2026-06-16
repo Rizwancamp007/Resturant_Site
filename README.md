@@ -2,7 +2,7 @@
 
 A premium MERN stack restaurant platform featuring a cozy cafe aesthetic, real-time WebSocket order tracking, digital reservation booker, and dedicated staff/administrative dashboards.
 
-🌐 **[Live Demo Website](https://your-vercel-link.vercel.app)** | ⚙️ **[Backend API Endpoint](https://your-render-link.onrender.com)**
+🌐 **
 
 ---
 
