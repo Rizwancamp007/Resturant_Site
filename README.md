@@ -2,7 +2,8 @@
 
 A premium MERN stack restaurant platform featuring a cozy cafe aesthetic, real-time WebSocket order tracking, digital reservation booker, and dedicated staff/administrative dashboards.
 
-🌐 **
+# Live deployed link
+🌐 **https://resturant-site-gamma.vercel.app/
 
 ---
 
