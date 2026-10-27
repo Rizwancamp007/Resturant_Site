@@ -81,11 +81,11 @@ The homepage features a modern, asymmetrical editorial layout with a portrait di
 *   MongoDB installed and running locally on port `27017`
 
 ### Step 1: Clone and Install Dependencies
-In the root directory, run:
+Install dependencies in each folder:
 ```bash
-npm run install:all
+cd client && npm install
+cd ../server && npm install
 ```
-This script will concurrently install dependencies in the root, `client`, and `server` folders.
 
 ### Step 2: Configure Environment Variables
 Create a file named `.env` in the root folder with the following settings:
@@ -107,7 +107,7 @@ EASYPAISA_ACCOUNT_NUMBER=03358477768
 ### Step 3: Seed the Database
 Populate your local database with Lahore-themed culinary assets and default users:
 ```bash
-npm run seed
+cd server && npm run seed
 ```
 
 **Seeded Credentials**:
@@ -117,8 +117,12 @@ npm run seed
 
 ### Step 4: Run the Application
 Start the frontend and backend development servers concurrently:
+Start the backend and frontend in separate terminals:
 ```bash
-npm run dev
+cd server && npm run dev
+```
+```bash
+cd client && npm run dev
 ```
 *   Your frontend will run at `http://localhost:5173`.
 *   Your backend API will run at `http://localhost:5000`.
